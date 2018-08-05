@@ -1,3 +1,4 @@
+# Examle of function to calculate VAT
 def get_vat(payment, percent=18):
     print (percent)
     try:
@@ -8,5 +9,5 @@ def get_vat(payment, percent=18):
     except (TypeError, ValueError):
         return 'can not count, check your input data'
 
-result = get_vat(900, 10)
+result = get_vat(1000, 18)
 print(result)
